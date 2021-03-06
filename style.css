@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0, 0, 54, 0.6), rgb(0, 87, 87, 0.7)), url(img/dr-stone-with-his-gang.jpg);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    margin: 40px 0 30px;
+    font-size: 25px;
+    color: #ffff;
+}
+
+.list {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+ul {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li {
+    font-weight: normal;
+    font-size: 18px;
+    color: rgb(255, 255, 255, 0.7);
+    text-align: justify;
+    list-style-image: url(/img/Dr_Stone.jpg);
+}
+
+caption {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 2px solid #ffffff;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background: rgb(255, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 60%;
+    border-collapse: collapse;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background: rgb(255, 0, 0, 0.5);
+}
+
+tr:nth-child(odd) {
+    background: rgb(255, 255, 255, 0.4);
+}
