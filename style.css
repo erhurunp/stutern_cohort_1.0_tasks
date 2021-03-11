@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, rgba(0, 87, 80, 0.6), rgb(0, 87, 87, 0.7)), url(img/Coffee-Beans.jpg);
+    background-size: cover;
+}
+
+.coffee-cup {
+    max-width: 200px;
+}
+
+.hero {
+    font-size: 100px;
+    color: rgb(255, 255, 255, 0.6);
+    margin-top: 10%;
+    margin-bottom: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    text-transform: uppercase;
+    font-style: oblique;
+}
