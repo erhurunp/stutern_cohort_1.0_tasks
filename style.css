@@ -5,8 +5,7 @@
 }
 
 body {
-    background: linear-gradient(to right, rgba(0, 0, 54, 0.6), rgb(0, 87, 87, 0.7)), url(img/dr-stone-with-his-gang.jpg) no-repeat centre centre fixed;
-    background-size: cover;
+    background: linear-gradient(to right, rgba(0, 0, 54, 0.6), rgb(0, 87, 87, 0.7)), url(img/dr-stone-with-his-gang.jpg);
 }
 
 h1 {
