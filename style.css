@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to right, rgba(0, 87, 87, 0.7), rgb(0, 87, 87, 0.7)), url(img/coffee-beans-917613_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.hero {
+    height: 250px;
+}
+
+section > header {
+    font-size: 70px;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: rgb(255, 255, 255, 0.4);
+    background: rgb(0, 0, 200, 0.1);
+    border-radius: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(247, 223, 223);
+    width: 100%;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.8);
+    padding-top: 7px;
+}
