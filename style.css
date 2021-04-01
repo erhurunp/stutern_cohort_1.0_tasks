@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to right, rgba(146, 139, 139, 0.7), rgba(29, 52, 58, 0.7)), url(images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: oblique;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 20px 0;
+}
+
+img {
+    max-height: 450px;
+    max-width: 500px;
+}
