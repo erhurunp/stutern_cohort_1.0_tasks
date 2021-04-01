@@ -9,3 +9,5 @@ Week Three Day One - Personal portfolio
 
 Week Five Day One - JavaScript Arrays
 
+Week Six Day One - JavaScript Object
+
