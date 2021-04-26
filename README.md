@@ -11,3 +11,4 @@ Week Five Day One - JavaScript Arrays
 
 Week Six Day One - JavaScript Object
 
+Week Six Day Two - Functions
