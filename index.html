@@ -11,14 +11,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;700;900&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="images/favicon-removebg-preview.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="images/logo-removebg-preview.png" alt="Peeraph Logo">
+            <img src="images/logo.png" alt="">
         </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
@@ -34,12 +37,11 @@
         <h1 class="section__title section__title--intro">
             Hi, I am <strong>Paschal Erhurun</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Fullstack developer</p>
-        <img src="images/hero-removebg-preview.png" alt="a picture of Paschal Erhurun smiling" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">Front-end Developer </p>
+        <img src="images/hero.png" alt="a picture of Paschal smiling" class="intro__img">
     </section>
-    <!-- End Introduction -->
 
-    <!-- Start my services segment -->
+    <!-- My services segment -->
     <section class="my-services" id="services">
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="services">
@@ -48,75 +50,72 @@
                 <h3>UX Design</h3>
                 <p>Have an idea, let's work on it together, i'm confident we will find the right solution for you.</p>
             </div>
-            <!-- End service -->
 
             <!-- Start service -->
             <div class="service">
                 <h3>Development</h3>
                 <p>Bringing ideas and concepts to life is what I do, your websites, mobile applications and even business ideas can come to life.</p>
             </div>
-            <!-- End service -->
 
             <!-- Start service -->
             <div class="service">
                 <h3>Educate</h3>
                 <p>Interested in learning how to code, or you want to give your teens an opportunity at technology, then I've got you covered.</p>
             </div>
-            <!-- End service -->
         </div>
-        <!-- End services -->
 
         <a href="#work" class="btn">see my Work</a>
     </section>
-    <!-- End my services segment -->
 
-    <!-- Start about me segment-->
+    <!-- About me segment-->
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Designer, developer and educator, based in Lagos Nigeria</p>
+        <p class="section__subtitle section__subtitle--about">Developer, designer and educator, based in Lagos Nigeria</p>
 
         <div class="about-me__body">
-            <p>I've always been in love with the prospects technology and science offers us, and sharing this with younger people, especially teens has always been thrilling for me. </p>
-            <p>So I code and teach young people how to code, especially teens. This let's me open their horizons to something much bigger than they are.</p>
+            <p>
+                I am a Front-end developer with experience in UX design. I build user friendly and engaging interfaces using HTML, CSS, frameworks and libraries such as Bootrstrap, React and Vue.
+            </p>
+            <p>
+                As a STEM Educator, I consider an interdisciplinary and applied approach to teaching, so as to better equip students to have a career and considering real-world applications. I also teach young people how to code, especially teens, this let's me open their horizons to something much bigger than they are.
+            </p>
         </div>
 
         <img src="images/about-me.jpg" alt="Paschal in shades" class="about-me__img">
     </section>
-    <!-- End about me segment -->
 
-    <!-- Start my work segment -->
+
+    <!-- My work segment -->
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My Work</h2>
-        <p class="section__subtitle section__subtitle--work">Completed Tasks and Projects</p>
+        <p class="section__subtitle section__subtitle--work">A selection of completed tasks and projects</p>
+
+        <!-- Portfolio segment -->
+        <div class="portfolio">
+            <!-- portfolio item one -->
+            <a href="https://rosa-peeraph.netlify.app/" target="_blank" class="portfolio__item">
+                <img src="images/portfolio/portfolio-4.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item two -->
+            <a href="https://loan-web-app.netlify.app/" target="_blank" class="portfolio__item">
+                <img src="images/portfolio/portfolio-3.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- portfolio item three -->
+            <a href="https://erhurunp.github.io/Team_Embers-artycool/" target="_blank" class="portfolio__item">
+                <img src="images/portfolio/portfolio-1.png" alt="" class="portfolio__img">
+            </a>
+        
+            <!-- portfolio item four -->
+            <a href="https://my-udemy-clone.netlify.app/" target="_blank" class="portfolio__item">
+                <img src="images/portfolio/portfolio-2.png" alt="" class="portfolio__img">
+            </a>
+        </div>
     </section>
-    <!-- End my work segment -->
 
-    <!-- Start portfolio segment -->
-    <div class="portfolio">
-        <!-- portfolio item one -->
-        <a href="https://erhurunp.github.io/Team_Embers-artycool/" class="portfolio__item">
-            <img src="images/portfolio/portfolio-1.png" alt="" class="portfolio__img">
-        </a>
 
-        <!-- portfolio item two -->
-        <a href="https://my-udemy-clone.netlify.app/" class="portfolio__item">
-            <img src="images/portfolio/portfolio-2.png" alt="" class="portfolio__img">
-        </a>
-
-        <!-- portfolio item three -->
-        <a href="https://erhurunp.github.io/Netflix_landingpage/" class="portfolio__item">
-            <img src="images/portfolio/portfolio-3.png" alt="" class="portfolio__img">
-        </a>
-
-        <!-- portfolio item four -->
-        <a href="https://csstableandlist.erhurunp.repl.co" class="portfolio__item">
-            <img src="images/portfolio/portfolio-4.png" alt="" class="portfolio__img">
-        </a>
-    </div>
-
-    <!-- End portfolio segment -->
-
-    <!-- Start footer -->
+    <!-- Footer -->
     <footer class="footer">
         <a href="mailto:erhurunp@gmail.com" class="footer__link">erhurunp@gmail.com</a>
         <ul class="social-list">
@@ -140,7 +139,6 @@
         </ul>
         
     </footer>
-    <!-- End footer -->
 
     <script src="index.js"></script>
 </body>
